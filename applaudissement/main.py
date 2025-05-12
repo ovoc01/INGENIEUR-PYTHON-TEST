@@ -1,3 +1,5 @@
+BASE_DIRECTORY = '/Users/dev/workspace/test/test-tanyah-consulting/applaudissement'
+
 def resolve(input_file, output_file):
     with open(input_file, 'r') as f:
         lines = f.read().splitlines()
@@ -29,4 +31,4 @@ def resolve(input_file, output_file):
 
 # Exemple d'utilisation :
 
-resolve('dataset/A-small-practice.in', 'output_file.txt')
+resolve(f"{BASE_DIRECTORY}/dataset/A-small-practice.in", f"{BASE_DIRECTORY}/output/A-small-practice.out")
