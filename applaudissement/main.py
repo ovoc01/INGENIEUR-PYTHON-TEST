@@ -29,4 +29,4 @@ def resolve(input_file, output_file):
 
 # Exemple d'utilisation :
 
-resolve('input_file.txt', 'output_file.txt')
+resolve('dataset/A-small-practice.in', 'output_file.txt')
