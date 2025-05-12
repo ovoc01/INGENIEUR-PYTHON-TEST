@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+*.so
+*.dll
+
+
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
